@@ -35,4 +35,13 @@ const sleepActionBuilder = () => {
   deepSlumbering();
 };
 
-export default { sleepActionBuilder };
+const sleepGradualDecline = () => {
+  energy -= 1;
+  document.getElementById('sleepProgress').value = energy;
+};
+
+const sleepGradualDeclineSeconds = () => {
+  setInterval(sleepGradualDecline, 2000);
+};
+
+export default { sleepActionBuilder, sleepGradualDeclineSeconds };

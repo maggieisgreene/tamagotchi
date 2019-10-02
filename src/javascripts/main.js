@@ -5,10 +5,11 @@ import sleep from './components/sleep';
 
 const init = () => {
   eat.eatActionBuilder();
-  eat.hunger();
+  eat.eatGradualDeclineSeconds();
   play.playActionBuilder();
-  play.gradualDecline();
+  play.playGradualDeclineSeconds();
   sleep.sleepActionBuilder();
+  sleep.sleepGradualDeclineSeconds();
 };
 
 init();
