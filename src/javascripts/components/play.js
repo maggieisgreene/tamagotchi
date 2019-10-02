@@ -35,13 +35,13 @@ const playActionBuilder = () => {
   funPlaying();
 };
 
-const intervalGradualDecline = () => {
+const playGradualDecline = () => {
   fun -= 25;
   document.getElementById('playProgress').value = fun;
 };
 
-const gradualDecline = () => {
-  setInterval(intervalGradualDecline, 40000);
+const playGradualDeclineSeconds = () => {
+  setInterval(playGradualDecline, 40000);
 };
 
-export default { playActionBuilder, gradualDecline };
+export default { playActionBuilder, playGradualDeclineSeconds };

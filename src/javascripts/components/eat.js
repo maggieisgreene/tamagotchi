@@ -30,13 +30,13 @@ const eatActionBuilder = () => {
   unhealthyEating();
 };
 
-const intervalProgressDeduction = () => {
+const eatGradualDecline = () => {
   full -= 7;
   document.getElementById('eatProgress').value = full;
 };
 
-const hunger = () => {
-  setInterval(intervalProgressDeduction, 20000);
+const eatGradualDeclineSeconds = () => {
+  setInterval(eatGradualDecline, 20000);
 };
 
-export default { eatActionBuilder, hunger };
+export default { eatActionBuilder, eatGradualDeclineSeconds };
