@@ -1,8 +1,28 @@
 body {
-    background-color: papayawhip;
+    background-color: gainsboro;
+    font-family: 'Roboto', sans-serif;
   }
 
-#app {
-  display: flex;
-  justify-content: space-around;
+.quad {
+  width: 50vw;
+  height: 50vh;
 }
+
+#eat {
+  background-color: hotpink;
+  float: right;
+}
+
+#play {
+  background-color: pink;
+  float: right;
+}
+
+#sleep {
+  background-color: fuchsia;
+}
+
+#fight {
+  background-color: purple;
+}
+
