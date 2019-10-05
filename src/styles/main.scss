@@ -1,28 +1,41 @@
+*{padding: 0px;
+  margin: 0px;}
+
 body {
     background-color: gainsboro;
     font-family: 'Roboto', sans-serif;
   }
 
-.quad {
-  width: 50vw;
-  height: 50vh;
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #eat {
-  background-color: hotpink;
-  float: right;
+  width: 50%;
+  height: 400px;
+  background-color: lightblue;
+  // float: right;
 }
 
 #play {
-  background-color: pink;
-  float: right;
+  width: 50%;
+  height: 400px;
+  background-color: lightcoral;
+  // float: right;
 }
 
 #sleep {
-  background-color: fuchsia;
+  width: 50%;
+  height: 400px;
+  background-color: lightgreen;
 }
 
 #fight {
-  background-color: purple;
+  width: 50%;
+  height: 400px;
+  background-color: lightpink;
 }
 
