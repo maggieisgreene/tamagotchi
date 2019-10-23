@@ -1,6 +1,6 @@
 import utilities from '../../helpers/utilities';
 
-let energy = 100;
+let energy = 50;
 
 const napping = () => {
   document.getElementById('napButton').addEventListener('click', () => {
