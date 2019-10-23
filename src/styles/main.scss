@@ -1,6 +1,4 @@
 @import 'bootstrap';
-// *{padding: 0px;
-//   margin: 0px;}
 
 body {
     background-color: gainsboro;
@@ -18,25 +16,46 @@ body {
   width: 50%;
   height: 400px;
   background-color: lightblue;
+  padding: 10px;
   // float: right;
+  h1 {
+    color: white;
+  }
 }
 
 #play {
   width: 50%;
   height: 400px;
   background-color: lightcoral;
+  padding: 10px;
   // float: right;
+  h1 {
+    color: white;
+  }
 }
 
 #sleep {
   width: 50%;
   height: 400px;
   background-color: lightgreen;
+  padding: 10px;
+  h1 {
+    color: white;
+  }
 }
 
 #fight {
   width: 50%;
   height: 400px;
   background-color: lightpink;
+  padding: 10px;
+  h1 {
+    color: white;
+  }
 }
 
+button {
+  background-color: white;
+  border-radius: 5px;
+  color: gray;
+}
